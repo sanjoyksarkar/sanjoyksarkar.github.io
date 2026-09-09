@@ -1,6 +1,6 @@
 # Sanjoy Kumar Sarkar — IT & Digital Systems Portfolio
 
-A responsive, static career portfolio for GitHub Pages: an editorial ivory, sage and navy design, four professional case studies, research contributions, education and a public CV. No framework, package installation, external fonts, trackers or runtime dependencies.
+A responsive, static career portfolio for GitHub Pages: an editorial ivory, sage and navy design, five professional case studies, research contributions, education and a public CV. No framework, package installation, external fonts, trackers or runtime dependencies.
 
 ## Preview locally
 
@@ -47,13 +47,15 @@ Organization marks retain their colors and proportions. Clean official Save the 
 
 ## Content accuracy
 
-- Around eight years reflects the October 2018–June 2026 career period.
+- “8 years” is the rounded summary of the October 2018–June 2026 career period.
 - User counts refer to approximate organizational environment sizes, not a combined personal support total.
 - Professional systems use clearly labelled conceptual illustrations. No internal endpoints, credentials, health records or dashboard screenshots are included.
-- The 2026 CEDAAH contribution is labelled as a conference abstract; final presentation status remains to be confirmed.
+- The 2026 CEDAAH item is labelled as a conference abstract contribution, without claiming a completed presentation.
 - The 2025 poster was accepted, but the conference was not held.
+- Sanjoy confirmed the dengue upserts/epi-week checks, NMCP monthly malaria updates and ERA5 integration details.
+- The fifth case study documents his confirmed external-dashboard-access incident. PostgreSQL data validation is explicitly separate from the outage diagnosis; no exact network cause or restoration time has been invented.
 - No testimonials, numerical outcomes, certifications or technical specializations have been invented.
 
 ## Validation
 
-`npm run check` validates six HTML pages, local links and assets, anchor targets, heading/ID structure, metadata and known stale/private text. Browser QA covers desktop, tablet and mobile layouts, mobile menu state, Escape, section selection, CV downloading, reduced motion and navigation without JavaScript. No Lighthouse score is claimed without a measured audit.
+`npm run check` validates seven HTML pages, local links and assets, anchor targets, heading/ID structure, metadata and known stale/private text. Browser QA covers desktop, tablet and mobile layouts, mobile menu state, Escape, section selection, CV downloading, reduced motion and navigation without JavaScript. No Lighthouse score is claimed without a measured audit.
