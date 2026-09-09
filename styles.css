@@ -60,10 +60,10 @@ body.contact-open{overflow:hidden}
 .case-content .evidence-card p,.case-content .evidence-card li{font-size:13px;line-height:1.8}
 .evidence-card ul{margin-bottom:0;padding-left:16px}
 .evidence-card li::marker{color:var(--accent)}
-.diagnosis-illustration{width:82%;max-width:370px;display:grid;gap:7px}
-.diagnosis-illustration>span{display:flex;align-items:center;gap:13px;font-size:9px;color:#647a66;padding:11px 14px;border:1px solid #bdcdb9;border-radius:5px;background:#f7f9f2}
+.diagnosis-illustration{width:100%;max-width:390px;display:grid;gap:10px}
+.diagnosis-step{display:grid;grid-template-columns:20px minmax(0,1fr) auto;align-items:center;column-gap:12px;row-gap:5px;padding:12px 14px;border:1px solid #bdcdb9;border-radius:5px;background:#f7f9f2;line-height:1.5}.diagnosis-number{font-size:10px;color:#647a66}
 .diagnosis-illustration strong{font-size:11px;font-weight:550;color:var(--ink)}
-.diagnosis-illustration em{font-size:9px;font-style:normal;color:var(--accent);margin-left:auto}
+.diagnosis-status{font-size:10px;color:var(--accent);text-align:right}.visual-4{height:auto;min-height:224px;padding-block:25px 42px}@media(max-width:420px){.diagnosis-step{grid-template-columns:18px minmax(0,1fr);padding:10px 12px;column-gap:10px}.diagnosis-status{grid-column:2;text-align:left}.visual-4{min-height:278px}}
 .visual-4{background:#e0e8da}
 .case-toc a{line-height:1.55}
 @media(max-width:960px){.evidence-grid{grid-template-columns:1fr}.current-focus{grid-template-columns:1fr;gap:18px}}

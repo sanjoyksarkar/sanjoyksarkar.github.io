@@ -80,7 +80,7 @@ export const experience = [
     "bullets": [
       "Supported LAN/WAN connectivity, Microsoft-based environments, enterprise applications and end-user devices.",
       "Troubleshot hardware, software and access issues; supported endpoint deployment and infrastructure maintenance.",
-      "Supported ICT operations within an environment spanning approximately 200+ HQ, 500+ field and 100+ Cox’s Bazar users."
+      "Worked in environments serving approximately 200+ HQ users, 500+ field users and 100+ users in Cox’s Bazar."
     ],
     "tags": [
       "ICT infrastructure",
@@ -535,4 +535,3 @@ export const research = [
     "note": "Conference was not held."
   }
 ];
-

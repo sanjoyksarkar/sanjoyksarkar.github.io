@@ -12,7 +12,8 @@ for(const file of files){
  assert.equal(ids.length,new Set(ids).size,`${file}: unique ids`);
  for(const [,url] of html.matchAll(/(?:href|src)="([^"]+)"/g)){
   if(/^(https?:|mailto:)/.test(url))continue;
-  const [local,hash]=url.split('#');
+  const [withQuery,hash]=url.split('#');
+  const local=withQuery.split('?')[0];
   const target=local?path.normalize(path.join(path.dirname(file),local)):file;
   await access(target);
   if(hash){const targetHtml=await readFile(target,'utf8');assert(targetHtml.includes(`id="${hash}"`),`${file}: missing anchor ${url}`);}
