@@ -4,7 +4,7 @@ export const person = {
   title: 'IT & Digital Systems Professional',
   email: 'imsanjoy562@gmail.com',
   linkedin: 'https://www.linkedin.com/in/sksarkar/',
-  github: 'https://github.com/sanjoysarkar007',
+  github: 'https://github.com/sanjoyksarkar',
   // Set your actual published URL (including any repository subpath) before release.
   siteUrl: '',
   description: 'IT and Digital Systems professional with around eight years of experience in IT infrastructure, Microsoft 365, MIS, digital health, PostgreSQL, Linux and technology operations across international development organizations.'
