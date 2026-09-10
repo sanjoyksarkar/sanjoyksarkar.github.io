@@ -38,6 +38,11 @@ body.contact-open{overflow:hidden}
 .contact-dialog .dialog-hint{font-size:12px;margin-top:18px}
 .contact-dialog .copy-status{font-size:12px;min-height:24px;margin:10px 0;color:var(--accent)}
 .dialog-inner>.text-link{padding-block:8px}
+.dialog-whatsapp{display:grid;gap:16px;padding:22px;margin:0 0 22px;background:#edf2e7;border:1px solid #bdcdb5;border-radius:8px}
+.dialog-whatsapp h3{font-size:18px;margin-bottom:6px}
+.contact-dialog .dialog-whatsapp p{font-size:12px}
+.whatsapp-button{background:#246348;color:#fff;width:100%;gap:12px}
+.whatsapp-button:hover{background:#1b4f39;color:#fff}
 @media(max-width:960px){.org-item{padding-inline:16px}.journey-next{flex-wrap:wrap}.journey-next>div{flex:1}.journey-next .text-link{margin-left:58px}.org-logo-frame .logo-save,.org-logo-frame .logo-winrock{width:180px}}
 @media(max-width:720px){.org-list{row-gap:22px}.org-item:nth-child(2){border-right:0}.org-logo-frame{height:108px}.org-logo-frame .logo-oxfam{height:88px}.org-logo-frame .logo-iedcr{height:98px}.org-tenure{margin-top:14px}.journey-next{gap:16px}.journey-next p{font-size:13px}.journey-next .text-link{margin-left:51px}.dialog-inner{padding:38px 24px 25px}.dialog-email{flex-wrap:wrap}.dialog-options{flex-direction:column}.contact-dialog h2{font-size:34px}.dialog-options .button{font-size:13px}.contact-dialog .eyebrow{max-width:230px}}
 @media print{.contact-dialog,.journey-next .text-link{display:none}}

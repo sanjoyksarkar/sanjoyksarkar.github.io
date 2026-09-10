@@ -4,6 +4,7 @@ export const person = {
   "shortName": "Sanjoy Sarkar",
   "title": "IT & Digital Systems Professional",
   "email": "imsanjoy562@gmail.com",
+  "whatsapp": "",
   "linkedin": "https://www.linkedin.com/in/sksarkar/",
   "github": "https://github.com/sanjoyksarkar",
   "siteUrl": "",
