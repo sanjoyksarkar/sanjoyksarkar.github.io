@@ -521,6 +521,14 @@ export const education = [
 export const research = [
   {
     "year": "2026",
+    "title": "Evaluating the Linkage Between Disease Forecasts, Alerts, and Public Health Action in Bangladesh’s Climate-Informed Early Warning System",
+    "authors": "Tabassum, A., Rahman, M. S., Sarkar, S., et al.",
+    "venue": "2nd Bangladesh FETP Conference 2026 · IEDCR, Bangladesh.",
+    "status": "Selected for poster presentation · Abstract 66",
+    "note": "Listed as Sanjay Sarkar in the conference abstract."
+  },
+  {
+    "year": "2026",
     "title": "Operationalizing Climate-Informed Disease Forecasting: A Probabilistic Deep Learning Early Warning System at National Scale.",
     "authors": "Tabassum, A., Rahman, S. Md., Sharmin, M., Sarkar, S., et al.",
     "venue": "International Conference on Climate Extremes, Disasters, Anticipatory Action and Human Health (CEDAAH 2026), IWFM-BUET, Dhaka.",

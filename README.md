@@ -1,6 +1,6 @@
 # Sanjoy Kumar Sarkar — IT & Digital Systems Portfolio
 
-A responsive, static career portfolio for GitHub Pages: an editorial ivory, sage and navy design, five professional case studies, research contributions, education and a public CV. No framework, package installation, external fonts, trackers or runtime dependencies.
+A responsive, static career portfolio for GitHub Pages: warm-white backgrounds, charcoal text, an editorial serif introduction, compact career entries, interactive technology pills, five case studies, research contributions and a public CV. No framework, external fonts, trackers or runtime dependencies.
 
 ## Preview locally
 
@@ -16,10 +16,14 @@ Open http://127.0.0.1:4173. The checked-in HTML also works by opening `index.htm
 ## Edit the content
 
 - `data/portfolio.mjs` — professional profile, dated experience, projects, capabilities, research and education.
-- `scripts/build.mjs` — page templates and SEO generation.
+- `scripts/build.mjs` — shared page templates, case studies and SEO generation.
+- `scripts/homepage.mjs` — homepage composition, skill evidence and conceptual project illustrations.
+- `scripts/story.mjs` — origin, interactive career chapters, and current/next chapter sections.
+- `data/journey.mjs` — evidence-grounded narrative for the four career chapters.
 - `styles.css` — colors, typography, layouts and responsive breakpoints.
-- `script.js` — accessible mobile navigation and active-section state.
-- `assets/sanjoy-sarkar.jpg` — existing portrait, displayed at a restrained size.
+- `script.js` — mobile navigation, skill evidence, project filtering, active sections, reduced-motion-aware reveals and the contact chooser.
+- `assets/sanjoy-portrait.png` — user-supplied blazer portrait, framed responsively using CSS.
+- `assets/sanjoy-sarkar.jpg` — retained original portrait.
 - `assets/Sanjoy_Sarkar_CV.pdf` — the exact PDF supplied by Sanjoy; all download links use this file.
 - `assets/social-preview.svg` — editable source of the 1200 × 630 social preview PNG.
 
@@ -56,6 +60,22 @@ Organization marks retain their colors and proportions. Clean official Save the 
 - The fifth case study documents his confirmed external-dashboard-access incident. PostgreSQL data validation is explicitly separate from the outage diagnosis; no exact network cause or restoration time has been invented.
 - No testimonials, numerical outcomes, certifications or technical specializations have been invented.
 
+The 2026 FETP Abstract 66 entry is sourced from the supplied conference photograph and the confirmed poster selection. It does not claim a completed presentation.
+
 ## Validation
 
 `npm run check` validates seven HTML pages, local links and assets, anchor targets, heading/ID structure, metadata and known stale/private text. Browser QA covers desktop, tablet and mobile layouts, mobile menu state, Escape, section selection, CV downloading, reduced motion and navigation without JavaScript. No Lighthouse score is claimed without a measured audit.
+
+## Visual direction and assets
+
+The light editorial redesign uses DevLove and the Stackrater Astro portfolio as visual references: a narrow reading column, restrained typography, compact career rows and icon-based skill pills. It does not copy their content or claim their skills. Native disclosure controls keep experience and research accessible without JavaScript. Skill buttons show supported experience levels and link to corresponding case studies; project filters announce the visible result count. All content remains visible with reduced motion.
+
+Technology icons are vendored from the Devicon project (https://github.com/devicons/devicon), with its MIT license at `assets/DEVICON-LICENSE.txt`. The Microsoft four-square mark and Power BI bars are simple inline vector representations. Organization assets retain the sources in `assets/LOGO-SOURCES.md`. The supplied portrait is framed with CSS; the original pixels are unchanged.
+
+## Story structure
+
+The homepage follows a six-part narrative: undergraduate foundation and first role; four chronological career chapters (Save the Children, Oxfam, Winrock, IEDCR); case studies in career order; the toolkit developed along the way; collaborative research; and current study plus future opportunities. The latest IEDCR role remains dated March 2025–June 2026; it is not presented as ongoing.
+
+Career chapters support pointer selection, Previous/Next, Left/Right, Home/End, direct fragment links, and descriptive tab/panel associations. Without JavaScript all four chapters remain readable. Printing reveals every chapter. Reduced-motion preferences disable animated movement, and progression never advances automatically. A desktop story index and thin reading-progress line help readers keep their place.
+
+The toolkit also includes the user-confirmed KoBoToolbox, Azure AD, Cisco Meraki Dashboard, Active Directory, DHIS2, Jira and ServiceNow. These use compact illustrative SVG symbols. Their detail panels link to related work without attributing a particular tool to an unconfirmed project; DHIS2 retains the documented integration-concepts level.
