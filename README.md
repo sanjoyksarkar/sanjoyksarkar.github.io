@@ -1,4 +1,4 @@
-# Sanjoy Kumar Sarkar — IT & Digital Systems Portfolio
+# Sanjoy Kumar Sarkar - IT & Digital Systems Portfolio
 
 A responsive, static career portfolio for GitHub Pages: warm-white backgrounds, charcoal text, an editorial serif introduction, compact career entries, interactive technology pills, five case studies, research contributions and a public CV. No framework, external fonts, trackers or runtime dependencies.
 
@@ -15,17 +15,17 @@ Open http://127.0.0.1:4173. The checked-in HTML also works by opening `index.htm
 
 ## Edit the content
 
-- `data/portfolio.mjs` — professional profile, dated experience, projects, capabilities, research and education.
-- `scripts/build.mjs` — shared page templates, case studies and SEO generation.
-- `scripts/homepage.mjs` — homepage composition, skill evidence and conceptual project illustrations.
-- `scripts/story.mjs` — origin, interactive career chapters, and current/next chapter sections.
-- `data/journey.mjs` — evidence-grounded narrative for the four career chapters.
-- `styles.css` — colors, typography, layouts and responsive breakpoints.
-- `script.js` — mobile navigation, skill evidence, project filtering, active sections, reduced-motion-aware reveals and the contact chooser.
-- `assets/sanjoy-portrait.png` — user-supplied blazer portrait, framed responsively using CSS.
-- `assets/sanjoy-sarkar.jpg` — retained original portrait.
-- `assets/Sanjoy_Sarkar_CV.pdf` — the exact PDF supplied by Sanjoy; all download links use this file.
-- `assets/social-preview.svg` — editable source of the 1200 × 630 social preview PNG.
+- `data/portfolio.mjs` - professional profile, dated experience, projects, capabilities, research and education.
+- `scripts/build.mjs` - shared page templates, case studies and SEO generation.
+- `scripts/homepage.mjs` - homepage composition, skill evidence and conceptual project illustrations.
+- `scripts/story.mjs` - origin, interactive career chapters, and current/next chapter sections.
+- `data/journey.mjs` - evidence-grounded narrative for the four career chapters.
+- `styles.css` - colors, typography, layouts and responsive breakpoints.
+- `script.js` - mobile navigation, skill evidence, project filtering, active sections, reduced-motion-aware reveals and the contact chooser.
+- `assets/sanjoy-portrait.png` - user-supplied blazer portrait, framed responsively using CSS.
+- `assets/sanjoy-sarkar.jpg` - retained original portrait.
+- `assets/Sanjoy_Sarkar_CV.pdf` - the exact PDF supplied by Sanjoy; all download links use this file.
+- `assets/social-preview.svg` - editable source of the 1200 × 630 social preview PNG.
 
 After content or template changes, run `npm run build` and `npm run check`. Commit the source and regenerated HTML together. Existing project URLs are retained.
 

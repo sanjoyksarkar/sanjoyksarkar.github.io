@@ -23,7 +23,7 @@ export const experience = [
     "bullets": [
       "Maintained PostgreSQL-backed dengue and malaria datasets, database upserts and ERA5-derived climate updates for surveillance and forecasting workflows.",
       "Operated Linux application services using Docker, Nginx and systemd; diagnosed an external dashboard-access issue and restored reachability after correcting access/network configuration.",
-      "Contributed to EWARS development alongside the wider team, documented technical work and helped surveillance users resolve operational issues."
+      "Developed the EWARS dashboard, documented technical work and helped surveillance users resolve operational issues."
     ],
     "tags": [
       "Digital health",
@@ -38,12 +38,12 @@ export const experience = [
     "role": "IT & Admin Officer",
     "dates": "Sep 2023 – Mar 2025",
     "year": "2023",
-    "focus": "MIS & digital transformation",
+    "focus": "IT administration & programme information systems",
     "summary": "Managed IT operations while supporting information systems and wider programme operations.",
     "bullets": [
       "Managed day-to-day IT services, Microsoft 365 support, office connectivity, accounts and devices.",
       "Coordinated implementation and support of web-based MIS, dashboards and reporting automation, translating programme needs into practical systems.",
-      "Coordinated technology procurement and vendors; supported staff training, collaboration tools and adoption across operational teams."
+      "Coordinated IT procurement and worked with vendors on technology services. Trained staff and supported their use of collaboration and reporting tools."
     ],
     "tags": [
       "Microsoft 365",
@@ -108,8 +108,9 @@ export const projects = [
     ],
     "period": "Mar 2025 – Jun 2026",
     "context": "IEDCR · Public-health surveillance",
+    "contribution": "Dashboard development & systems operations",
     "challenge": "Climate-sensitive disease surveillance draws on information from multiple sources. Data collection, processing, application services and dashboards need to work together so that technical outputs can support public-health preparedness.",
-    "role": "As IT Officer – Data & MIS, I maintained data workflows and application services within the early-warning environment. My hands-on responsibilities covered PostgreSQL, recurring data updates, Python backend components, Linux services and troubleshooting. EWARS development was a team effort; my focus was its technical implementation and day-to-day operation.",
+    "role": "I developed the EWARS dashboard and maintained the PostgreSQL data workflows, Python components and Linux services that supported it. The wider technical and scientific team contributed to the early-warning platform and its forecasting methods.",
     "approach": [
       "Maintained PostgreSQL-backed epidemiological and climate datasets feeding surveillance and forecasting workflows.",
       "Implemented and maintained automated collection and processing workflows for recurring data updates.",
@@ -262,7 +263,7 @@ export const projects = [
       "User adoption"
     ],
     "period": "Sep 2023 – Mar 2025",
-    "context": "Winrock International · Development programme",
+    "context": "Winrock International · B-PEMS AugroJatra",
     "challenge": "Programme and management teams need consistent information without unnecessary manual work. A useful MIS must reflect operational requirements and be supported by reporting processes and confident users.",
     "role": "As IT & Admin Officer, I coordinated implementation and rollout of a web-based MIS for programme monitoring and reporting. I worked between programme users, operational teams and technical service providers, while also managing everyday IT services.",
     "approach": [
@@ -537,7 +538,7 @@ export const research = [
   },
   {
     "year": "2025",
-    "title": "Signals to Safety: EWARS for Health Emergencies—Present Realities and Future Directions.",
+    "title": "Signals to Safety: EWARS for Health Emergencies-Present Realities and Future Directions.",
     "authors": "Sarker, M. F. R., Tabassum, A., Sarkar, S., Chowdhury, M. S. R., Mahmood, A. S., and Shirin, T.",
     "venue": "Annual Epidemiological Conference 2025, IEDCR, Dhaka.",
     "status": "Accepted for poster presentation",

@@ -15,7 +15,7 @@ if (base && !/^https:\/\/[^/]+\//.test(base)) throw new Error('siteUrl must be a
 const head = (title, description, path = '', prefix = '') => `<!doctype html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
 <title>${esc(title)}</title><meta name="description" content="${esc(description)}"><meta name="theme-color" content="#faf9f6">
-<meta property="og:type" content="website"><meta property="og:locale" content="en_US"><meta property="og:title" content="${esc(title)}"><meta property="og:description" content="${esc(description)}"><meta property="og:image" content="${esc(base || prefix)}assets/social-preview.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:image:alt" content="Sanjoy Kumar Sarkar — IT & Digital Systems Professional">
+<meta property="og:type" content="website"><meta property="og:locale" content="en_US"><meta property="og:title" content="${esc(title)}"><meta property="og:description" content="${esc(description)}"><meta property="og:image" content="${esc(base || prefix)}assets/social-preview.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:image:alt" content="Sanjoy Kumar Sarkar - IT & Digital Systems Professional">
 <meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="${esc(title)}"><meta name="twitter:description" content="${esc(description)}"><meta name="twitter:image" content="${esc(base || prefix)}assets/social-preview.png">
 ${base ? `<link rel="canonical" href="${esc(base + path)}"><meta property="og:url" content="${esc(base + path)}">` : ''}
 <link rel="icon" type="image/svg+xml" href="${prefix}assets/favicon.svg"><link rel="stylesheet" href="${prefix}styles.css?v=${cssVersion}"><script src="${prefix}script.js?v=${jsVersion}" defer></script></head>`;
@@ -41,7 +41,7 @@ await mkdir('dist/assets',{recursive:true});
 await mkdir('dist/projects',{recursive:true});
 for(const file of ['index.html','404.html','styles.css','script.js','robots.txt','.nojekyll']) await copyFile(file,`dist/${file}`);
 for(const x of projects) await copyFile(`projects/${x.slug}.html`,`dist/projects/${x.slug}.html`);
-for(const file of ['skill-python.svg','skill-postgresql.svg','skill-docker.svg','skill-linux.svg','skill-fastapi.svg','skill-git.svg','skill-nginx.svg','DEVICON-LICENSE.txt','favicon.svg','sanjoy-portrait.png','sanjoy-sarkar.jpg','Sanjoy_Sarkar_CV.pdf','social-preview.png','save-the-children-logo.svg','oxfam-logo.png','winrock-logo.png','iedcr-logo.png']) await copyFile(`assets/${file}`,`dist/assets/${file}`);
+for(const file of ['skill-python.svg','skill-postgresql.svg','skill-docker.svg','skill-linux.svg','skill-fastapi.svg','skill-git.svg','skill-nginx.svg','DEVICON-LICENSE.txt','favicon.svg','sanjoy_photo.jpg','sanjoy-sarkar.jpg','Sanjoy_Sarkar_CV.pdf','social-preview.png','save-the-children-logo.svg','oxfam-logo.png','winrock-logo.png','iedcr-logo.png']) await copyFile(`assets/${file}`,`dist/assets/${file}`);
 if(base) await copyFile('sitemap.xml','dist/sitemap.xml');
 else await rm('dist/sitemap.xml',{force:true});
 console.log(`Built homepage and ${projects.length} case studies. ${base?'SEO URLs configured.':'Set person.siteUrl before publishing to generate canonical URLs and sitemap.'}`);

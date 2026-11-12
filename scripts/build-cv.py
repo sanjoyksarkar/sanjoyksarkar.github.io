@@ -29,7 +29,7 @@ styles.add(ParagraphStyle(name='SectionCV', fontName=bold, fontSize=10, leading=
 styles.add(ParagraphStyle(name='RoleCV', fontName=bold, fontSize=10, leading=14, textColor=ink, spaceBefore=9, spaceAfter=3))
 styles.add(ParagraphStyle(name='BulletCV', fontName=font, fontSize=9.2, leading=13.3, textColor=ink, leftIndent=10, firstLineIndent=-8, spaceAfter=5))
 def clean(s):
-    return escape(s.replace('–','-').replace('—',' - ').replace('’',"'").replace('→','to'))
+    return escape(s.replace('–','-').replace('\u2014',' - ').replace('’',"'").replace('→','to'))
 def para(s, style='BodyCV'):
     return Paragraph(clean(s), styles[style])
 story=[]
