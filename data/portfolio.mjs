@@ -15,15 +15,15 @@ export const experience = [
   {
     "org": "IEDCR",
     "fullName": "Institute of Epidemiology, Disease Control and Research",
-    "role": "IT Officer – Data & MIS",
-    "dates": "Mar 2025 – Jun 2026",
+    "role": "IT Officer",
+    "dates": "Mar 2025 - Present",
     "year": "2025",
     "focus": "Digital health & data systems",
     "summary": "Maintained operational technology and data workflows for climate-informed disease surveillance and early warning.",
     "bullets": [
       "Maintained PostgreSQL-backed dengue and malaria datasets, database upserts and ERA5-derived climate updates for surveillance and forecasting workflows.",
       "Operated Linux application services using Docker, Nginx and systemd; diagnosed an external dashboard-access issue and restored reachability after correcting access/network configuration.",
-      "Developed the EWARS dashboard, documented technical work and helped surveillance users resolve operational issues."
+      "Developed the EWARS dashboard for national climate-sensitive disease surveillance covering dengue, malaria and acute watery diarrhoea (AWD). Supported district-level workflows across Bangladesh's 64 districts; disease-specific data availability varied by district."
     ],
     "tags": [
       "Digital health",
@@ -36,14 +36,16 @@ export const experience = [
   {
     "org": "Winrock International",
     "role": "IT & Admin Officer",
-    "dates": "Sep 2023 – Mar 2025",
+    "dates": "Sep 2023 - Mar 2025",
     "year": "2023",
     "focus": "IT administration & programme information systems",
     "summary": "Managed IT operations while supporting information systems and wider programme operations.",
     "bullets": [
-      "Managed day-to-day IT services, Microsoft 365 support, office connectivity, accounts and devices.",
-      "Coordinated implementation and support of web-based MIS, dashboards and reporting automation, translating programme needs into practical systems.",
-      "Coordinated IT procurement and worked with vendors on technology services. Trained staff and supported their use of collaboration and reporting tools."
+      "Managed office IT and Microsoft 365 accounts; supported MFA, device management, Windows 11 migration and Cyber Essentials compliance.",
+      "Coordinated web-based MIS activities with the MIS consultant and programme team, supporting data collection, data quality and reporting requirements. The project stopped after data gathering and dashboard preparations; the dashboard was not developed.",
+      "Handled IT procurement, vendor coordination, maintenance, and IT asset and inventory records.",
+      "Coordinated staff travel, ticketing and field transport, alongside office logistics, maintenance and administrative support.",
+      "Provided technical support, training and capacity building to six partner NGOs."
     ],
     "tags": [
       "Microsoft 365",
@@ -55,12 +57,12 @@ export const experience = [
   {
     "org": "Oxfam Bangladesh",
     "role": "Information Technology Officer",
-    "dates": "Oct 2021 – Aug 2023",
+    "dates": "Oct 2021 - Aug 2023",
     "year": "2021",
     "focus": "IT operations & field infrastructure",
-    "summary": "Provided independent field IT support across Cox’s Bazar and Teknaf, coordinating with wider organizational IT teams.",
+    "summary": "Independently managed IT operations for two offices in Cox’s Bazar and Teknaf, supporting approximately 100 staff.",
     "bullets": [
-      "Served as a primary IT resource for field operations, supporting networks, connectivity, endpoints and user systems.",
+      "Independently managed IT operations for two offices in Cox’s Bazar and Teknaf, supporting approximately 100 staff.",
       "Resolved hardware, software and account incidents and supported collaboration platforms in a demanding field environment.",
       "Coordinated vendors and IT procurement, trained staff and supported reliable technology use for programme delivery."
     ],
@@ -74,14 +76,14 @@ export const experience = [
   {
     "org": "Save the Children Bangladesh",
     "role": "Assistant Officer – ICT Infrastructure Administration",
-    "dates": "Oct 2018 – Oct 2021",
+    "dates": "Oct 2018 - Oct 2021",
     "year": "2018",
     "focus": "Enterprise ICT infrastructure",
     "summary": "Built a foundation in enterprise infrastructure and technical support across headquarters and field environments.",
     "bullets": [
       "Supported LAN/WAN connectivity, Microsoft-based environments, enterprise applications and end-user devices.",
       "Troubleshot hardware, software and access issues; supported endpoint deployment and infrastructure maintenance.",
-      "Worked in environments serving approximately 200+ HQ users, 500+ field users and 100+ users in Cox’s Bazar."
+      "Worked as part of an ICT team supporting 200+ headquarters users, 500+ field users and 100+ users in Cox’s Bazar."
     ],
     "tags": [
       "ICT infrastructure",
@@ -106,16 +108,17 @@ export const projects = [
       "Linux",
       "Digital health"
     ],
-    "period": "Mar 2025 – Jun 2026",
+    "period": "Mar 2025 - Present",
     "context": "IEDCR · Public-health surveillance",
     "contribution": "Dashboard development & systems operations",
     "challenge": "Climate-sensitive disease surveillance draws on information from multiple sources. Data collection, processing, application services and dashboards need to work together so that technical outputs can support public-health preparedness.",
-    "role": "I developed the EWARS dashboard and maintained the PostgreSQL data workflows, Python components and Linux services that supported it. The wider technical and scientific team contributed to the early-warning platform and its forecasting methods.",
+    "role": "I developed the EWARS dashboard for national climate-sensitive disease surveillance covering dengue, malaria and acute watery diarrhoea (AWD). I maintained its PostgreSQL data workflows, Python components and Linux services, alongside the wider technical and scientific team’s forecasting work.",
     "approach": [
       "Maintained PostgreSQL-backed epidemiological and climate datasets feeding surveillance and forecasting workflows.",
       "Implemented and maintained automated collection and processing workflows for recurring data updates.",
       "Operated Python-based backend components and Linux-hosted application services, working across Docker, Nginx and systemd.",
-      "Investigated data-refresh, application and infrastructure problems, documented technical work and helped users work with surveillance outputs."
+      "Investigated data-refresh, application and infrastructure problems, documented technical work and helped users work with surveillance outputs.",
+      "Supported district-level surveillance workflows with national geographic scope across Bangladesh’s 64 districts. This scope does not mean complete disease-specific data were available for every district."
     ],
     "result": "Maintained the data updates and application services that connected surveillance and climate information with dashboard and forecasting workflows. This work made the technical chain usable in day-to-day operations, alongside the wider team’s surveillance and analytical contributions.",
     "lesson": "An early-warning system depends on the whole service: data freshness, application availability, clear documentation and people who can interpret and use the information.",
@@ -190,7 +193,7 @@ export const projects = [
       "PostgreSQL",
       "APIs"
     ],
-    "period": "Mar 2025 – Jun 2026",
+    "period": "Mar 2025 - Present",
     "context": "IEDCR · Surveillance and forecasting workflows",
     "challenge": "Disease and environmental information arrives through different sources and update cycles. Repetitive collection and preparation tasks make it harder to keep downstream surveillance workflows supplied with current data.",
     "role": "I implemented and maintained recurring collection and processing workflows within the public-health systems environment. I worked across Python scripts, PostgreSQL, external sources and scheduled processes, and investigated failures affecting downstream data updates.",
@@ -256,66 +259,70 @@ export const projects = [
     "category": "Information systems / Winrock",
     "title": "Better systems for programme delivery.",
     "fullTitle": "Web-Based MIS & Operational Reporting",
-    "summary": "Translating programme requirements into practical information systems, reporting and staff adoption.",
+    "summary": "Coordinating programme MIS requirements, data quality and dashboard preparations alongside IT and administration.",
     "tags": [
       "MIS",
       "Reporting",
       "User adoption"
     ],
-    "period": "Sep 2023 – Mar 2025",
+    "period": "Sep 2023 - Mar 2025",
     "context": "Winrock International · B-PEMS AugroJatra",
     "challenge": "Programme and management teams need consistent information without unnecessary manual work. A useful MIS must reflect operational requirements and be supported by reporting processes and confident users.",
-    "role": "As IT & Admin Officer, I coordinated implementation and rollout of a web-based MIS for programme monitoring and reporting. I worked between programme users, operational teams and technical service providers, while also managing everyday IT services.",
+    "role": "As IT & Admin Officer on B-PEMS AugroJatra, I coordinated web-based MIS activities with the MIS consultant and programme team. I supported data collection, data quality and reporting requirements alongside everyday IT and administrative responsibilities.",
     "approach": [
-      "Worked with programme and operational teams to understand requirements and translate them into system needs.",
-      "Coordinated MIS implementation and support, including collaboration with technology service providers.",
-      "Supported dashboards, reporting automation and data management workflows.",
-      "Provided staff training and ongoing user support, alongside Microsoft 365 and office IT services."
+      "Worked with the MIS consultant and programme team to clarify information and reporting requirements.",
+      "Supported data collection, data-quality checks and preparations for dashboard development.",
+      "Provided technical support, training and capacity building to six partner NGOs.",
+      "Managed Microsoft 365 support, MFA and device management, and supported Windows 11 migration and Cyber Essentials compliance.",
+      "Handled IT procurement, vendor coordination, asset and inventory management, staff travel and ticketing, field transport, office logistics and maintenance."
     ],
-    "result": "Coordinated the rollout and operational support of a web-based MIS for programme monitoring and reporting. Programme users gained digital information-management and reporting tools, with training and continuing technical support to help them use those tools in their work.",
+    "result": "The required data had been gathered and preparations for dashboard development were completed when the project stopped. The dashboard itself was not developed.",
     "lesson": "A system is useful when it fits the work people actually do. Requirements, training and ongoing support are as important as implementation.",
     "technology": [
       "Web-based MIS",
-      "Dashboards",
-      "Data management",
+      "Data quality",
+      "Reporting requirements",
       "Microsoft 365",
-      "Reporting automation"
+      "Device management"
     ],
     "flow": [
       "Programme requirements",
-      "System coordination",
-      "MIS + data quality",
-      "Reporting",
-      "Training + support"
+      "MIS consultant coordination",
+      "Data collection + quality",
+      "Dashboard preparations",
+      "Project stopped before development"
     ],
     "detailTitle": "Delivery in practice",
-    "detailIntro": "The concrete deliverable was a web-based programme information system, with reporting workflows and the user support needed to make it part of daily work.",
+    "detailIntro": "My work connected programme information needs with data preparation, partner support and day-to-day office operations.",
     "details": [
       {
-        "title": "Who it served",
-        "text": "Programme and operational teams working with monitoring and management information.",
+        "title": "Programme and partner support",
+        "text": "Worked with programme colleagues and six partner NGOs on technical needs and the use of project systems.",
         "items": [
-          "Programme information users",
-          "Operational and management reporting needs"
+          "Technical support and training",
+          "Capacity building for six partner NGOs"
         ]
       },
       {
-        "title": "What I coordinated",
-        "text": "Translated user requirements into implementation needs and coordinated with the technical service provider through rollout and ongoing support.",
+        "title": "MIS coordination",
+        "text": "Worked with the MIS consultant and programme team on data collection, data quality and reporting requirements.",
         "items": [
-          "Requirements and implementation coordination",
-          "Staff training and user support"
+          "Required data gathered",
+          "Dashboard preparations completed; dashboard not developed"
         ]
       },
       {
-        "title": "What became usable",
-        "text": "Web-based information management, dashboards and digital reporting mechanisms for programme and management information.",
+        "title": "IT and administration",
+        "text": "Kept office technology and practical arrangements moving alongside the MIS work.",
         "items": [
-          "MIS data-management workflows",
-          "Dashboards and reporting automation"
+          "Microsoft 365, MFA, devices and Windows 11 migration",
+          "Cyber Essentials compliance support",
+          "Procurement, vendors, assets and inventory",
+          "Staff travel, ticketing, field transport and office logistics"
         ]
       }
-    ]
+    ],
+    "contribution": "MIS coordination, data preparation & user support"
   },
   {
     "slug": "enterprise-it",
@@ -329,10 +336,10 @@ export const projects = [
       "Networking",
       "IT operations"
     ],
-    "period": "Oct 2018 – Mar 2025",
+    "period": "Oct 2018 - Mar 2025",
     "context": "Save the Children · Oxfam Bangladesh · Winrock International",
     "challenge": "Headquarters and field programmes depend on connectivity, working devices and accessible enterprise services. Technical incidents can interrupt collaboration and programme operations, especially in demanding field environments.",
-    "role": "At Save the Children, I supported enterprise ICT infrastructure and users across headquarters and field environments. At Oxfam, I took on independent field IT responsibilities across Cox’s Bazar and Teknaf. At Winrock, that remit expanded into day-to-day IT management, vendor coordination and wider programme operations.",
+    "role": "At Save the Children, I worked as part of an ICT team supporting 200+ headquarters users, 500+ field users and 100+ users in Cox’s Bazar. At Oxfam, I independently managed IT operations for two offices in Cox’s Bazar and Teknaf, supporting approximately 100 staff. At Winrock, I combined office IT and administration with technical support and capacity building for six partner NGOs.",
     "approach": [
       "Supported LAN/WAN, connectivity, endpoints, enterprise applications and account-related issues.",
       "Troubleshot incidents and coordinated with wider organizational IT teams and service providers.",
@@ -360,24 +367,24 @@ export const projects = [
     "detailIntro": "Three roles show how enterprise support experience grew into independent field ownership and broader operational coordination.",
     "details": [
       {
-        "title": "Save the Children | 2018–2021",
-        "text": "ICT operations within an environment spanning approximately 200+ HQ, 500+ field and 100+ Cox’s Bazar users.",
+        "title": "Save the Children | 2018-2021",
+        "text": "Worked as part of an ICT team supporting 200+ headquarters users, 500+ field users and 100+ users in Cox’s Bazar.",
         "items": [
           "Enterprise infrastructure and LAN/WAN",
           "Endpoints, applications and account support"
         ]
       },
       {
-        "title": "Oxfam | 2021–2023",
-        "text": "Primary field IT responsibility across Cox’s Bazar and Teknaf, coordinating with wider organizational IT teams.",
+        "title": "Oxfam | 2021-2023",
+        "text": "Independently managed IT operations for two offices in Cox’s Bazar and Teknaf, supporting approximately 100 staff.",
         "items": [
           "Independent incident troubleshooting",
           "Connectivity, devices and field continuity"
         ]
       },
       {
-        "title": "Winrock International | 2023–2025",
-        "text": "Managed day-to-day IT services alongside procurement, vendors, collaboration tools and broader organizational responsibilities.",
+        "title": "Winrock International | 2023-2025",
+        "text": "Managed office IT, procurement, vendors, assets, inventory, travel and logistics, and provided technical support and capacity building to six partner NGOs.",
         "items": [
           "Microsoft 365 and office IT operations",
           "Vendor coordination and staff training"
@@ -398,7 +405,7 @@ export const projects = [
       "PostgreSQL",
       "Troubleshooting"
     ],
-    "period": "Mar 2025 – Jun 2026",
+    "period": "Mar 2025 - Present",
     "context": "IEDCR · EWARS operational environment",
     "contribution": "Incident diagnosis, access restoration & data validation",
     "challenge": "The EWARS dashboard became externally inaccessible even though the application was running. The task was to determine whether the failure was in the backend, reverse proxy or external access path, and restore normal reachability.",
@@ -487,7 +494,7 @@ export const capabilities = [
   {
     "title": "MIS & digital reporting",
     "level": "Strong / hands-on",
-    "text": "Web-based information systems, data management, reporting automation, dashboard support and staff adoption. Working experience with Power BI.",
+    "text": "Web-based MIS coordination, data collection, data quality and reporting requirements. Developed the EWARS dashboard at IEDCR. Power BI remains a separate professional skill with working experience; the planned Winrock dashboard was not developed.",
     "tools": "MIS · Dashboards · Data quality · Power BI"
   },
   {
@@ -512,9 +519,9 @@ export const education = [
     "description": "Expanding my technical depth in AI, machine learning, statistics and data engineering."
   },
   {
-    "degree": "B.Sc. in Computer Science and Engineering",
+    "degree": "Bachelor of Technology (B.Tech) in Computer Science and Engineering",
     "institution": "Jawaharlal Nehru Technological University, India",
-    "period": "2014 – 2018",
+    "period": "2014 - 2018",
     "description": "The academic foundation for my work across infrastructure, information systems and technology operations."
   }
 ];

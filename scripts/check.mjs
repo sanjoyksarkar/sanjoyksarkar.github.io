@@ -19,6 +19,6 @@ for(const file of files){
   if(hash){const targetHtml=await readFile(target,'utf8');assert(targetHtml.includes(`id="${hash}"`),`${file}: missing anchor ${url}`);}
   checked++;
  }
- assert(!/1995|msikder@|Kushal\.banik@|7\+ years|6\+ years|2025 – Present/.test(html),`${file}: stale or private content`);
+ assert(!/1995|msikder@|Kushal\.banik@|7\+ years|6\+ years|Mar 2025 [–-] Jun 2026|B\.Sc\./.test(html),`${file}: stale or private content`);
 }
 console.log(`Passed: ${files.length} pages, ${checked} local links/assets, unique headings and anchors, metadata, privacy/stale-copy checks.`);

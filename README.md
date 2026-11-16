@@ -41,7 +41,7 @@ For another host, set `person.siteUrl` in `data/portfolio.mjs` to the full HTTPS
 
 ## CV and contact
 
-The download is Sanjoy's supplied PDF, copied unchanged on 9 September 2026. Replace `assets/Sanjoy_Sarkar_CV.pdf` with a new approved PDF when needed, then build and push. The site build copies the file without regenerating or rewriting it.
+The download is Sanjoy's supplied PDF, updated with the supplied public CV on 16 November 2026. Replace `assets/Sanjoy_Sarkar_CV.pdf` with a new approved PDF when needed, then build and push. The site build copies the file without regenerating or rewriting it.
 
 The earlier original remains in `.private/Original_CV.pdf`, excluded from Git, the local server and deployment. The legacy `scripts/build-cv.py` now writes an optional draft to `tmp/generated-CV.pdf`; it does not replace the approved public CV.
 
@@ -51,7 +51,7 @@ Organization marks retain their colors and proportions. Clean official Save the 
 
 ## Content accuracy
 
-- “8 years” is the rounded summary of the October 2018–June 2026 career period.
+- “8 years” is the rounded summary of the career period beginning in October 2018; IEDCR remains March 2025 - Present.
 - User counts refer to approximate organizational environment sizes, not a combined personal support total.
 - Professional systems use clearly labelled conceptual illustrations. No internal endpoints, credentials, health records or dashboard screenshots are included.
 - The 2026 CEDAAH item is labelled as a conference abstract contribution, without claiming a completed presentation.
